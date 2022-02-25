@@ -21,3 +21,14 @@ Currently this playbook has been tested support and test against Python versions
 * IBM Cloud API key: In order to use this playbok you must have a valid  IBM Cloud API keys for services. These keys can also be stored, rotated, revoked, or even leased if you only want to provide temporary access for other team members or services. IBM Cloud API keys, in combination with the right identity and access management (IAM) policy, enable access to cloud object storage, continuous delivery and other platform services.
 
 ![IBM Cloud API Key](image.png)
+
+## More information
+
+- [IBM Cloud secrets manager doc](https://cloud.ibm.com/docs/secrets-manager?topic=secrets-manager-what-is-secret&interface=ui)   
+- [Vault API Reference](https://cloud.ibm.com/docs/secrets-manager?topic=secrets-manager-vault-api#vault-api-login)   
+
+## Licensing
+
+GNU General Public License v3.0 or later.
+
+See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt) to see the full text.
