@@ -1,6 +1,6 @@
 # Overview
 
-This is a sample ansible playbook that uses IBM Cloud Secrets manager to store secrets. With Secrets Manager, you can create, lease, and centrally manage secrets that are used in IBM Cloud services or your custom-built applications. Secrets are stored in a dedicated Secrets Manager instance per customer, built on HashiCorp Vault.
+IBM Cloud Secrets Manager is an SaaS offering that enables customer and internal IBM teams to can create, rotate, update, and centrally manage secrets. The secrets can be used by internal services provided by IBM Cloud itself, such as One compliance toolchains, or built-in applications (NG Fabric playbooks). All the customer accounts can have a dedicated instance. The instance is built on open-source HashiCorp Vault, which means that the [Hashicorp Vault API](https://cloud.ibm.com/docs/secrets-manager?topic=secrets-manager-vault-api) is enabled to consume and manage the lifecycle of the secrets.
 
 ## Tested with Ansible
 
