@@ -22,6 +22,20 @@ Currently this playbook has been tested support and test against Python versions
 
 ![IBM Cloud API Key](image.png)
 
+## Usage
+A setup.sh has been included on this repo to work with this example using Python virtual environments, which is the suggested way to develop/execute ansible playbooks.
+
+```
+sh setup.sh
+```
+
+Once the environment is setup you can execute the playbook by using ansible playbook command:
+```
+ansible-playbook secret_manager.yml --extra-vars "api_key=XXXXXXXXXXXX hostname_vault=https://XXXXXXXXXXX.XXXXXXX.secrets-manager.appdomain.cloud"
+```
+
+Enjoy the playbook execution. 
+
 ## More information
 
 - [IBM Cloud secrets manager doc](https://cloud.ibm.com/docs/secrets-manager?topic=secrets-manager-what-is-secret&interface=ui)   
