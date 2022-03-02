@@ -1,6 +1,6 @@
 # Overview
 
-IBM Cloud Secrets Manager is an SaaS offering that enables customer and internal IBM teams to can create, rotate, update, and centrally manage secrets. The secrets can be used by internal services provided by IBM Cloud itself, such as One compliance toolchains, or built-in applications. All the customer accounts can have a dedicated instance. The instance is built on open-source HashiCorp Vault, which means that the [Hashicorp Vault API](https://cloud.ibm.com/docs/secrets-manager?topic=secrets-manager-vault-api) is enabled to consume and manage the lifecycle of the secrets.
+IBM Cloud Secrets Manager is an SaaS offering that enables IBM Cloud customers to create, rotate, update, and centrally manage secrets. All the customer accounts can have a dedicated instance. The instance is built on open-source HashiCorp Vault, which means that the [Hashicorp Vault API](https://cloud.ibm.com/docs/secrets-manager?topic=secrets-manager-vault-api) is enabled to consume and manage the lifecycle of the secrets.
 
 ## Tested with Ansible
 
