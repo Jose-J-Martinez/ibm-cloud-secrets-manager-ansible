@@ -1,6 +1,6 @@
 # Overview
 
-IBM Cloud Secrets Manager is an SaaS offering that enables IBM Cloud customers to create, rotate, update, and centrally manage secrets. All the customer accounts can have a dedicated instance. The instance is built on open-source HashiCorp Vault, which means that the [Hashicorp Vault API](https://cloud.ibm.com/docs/secrets-manager?topic=secrets-manager-vault-api) is enabled to consume and manage the lifecycle of the secrets.
+IBM Cloud Secrets Manager is a SaaS offering that enables IBM Cloud customers to create, rotate, update, and centrally manage secrets. All the customer accounts can have a dedicated instance. The instance is built on open-source HashiCorp Vault, which means that the [Hashicorp Vault API](https://cloud.ibm.com/docs/secrets-manager?topic=secrets-manager-vault-api) is enabled to consume and manage the lifecycle of the secrets.
 
 ## Tested with Ansible
 
@@ -11,14 +11,14 @@ IBM Cloud Secrets Manager is an SaaS offering that enables IBM Cloud customers t
 
 ## Python Requirements
 
-Currently this playbook has been tested support and test against Python versions:
+Currently, this playbook has been tested support and tested against Python versions:
 * 3.6
 * 3.7
 * 3.8
 
 ## Requirements
 
-* IBM Cloud API key: In order to use this playbok you must have a valid  IBM Cloud API keys for services. These keys can also be stored, rotated, revoked, or even leased if you only want to provide temporary access for other team members or services. IBM Cloud API keys, in combination with the right identity and access management (IAM) policy, enable access to cloud object storage, continuous delivery and other platform services.
+* IBM Cloud API key: In order to use this playbook you must have valid  IBM Cloud API keys for services. These keys can also be stored, rotated, revoked, or even leased if you only want to provide temporary access for other team members or services. IBM Cloud API keys, in combination with the right identity and access management (IAM) policy, enable access to cloud object storage, continuous delivery, and other platform services.
 
 ![IBM Cloud API Key](https://1.cms.s81c.com/sites/default/files/2020-10/Secrets%20Manager_624X351%403x-100.jpg)
 
@@ -46,3 +46,4 @@ Enjoy the playbook execution.
 GNU General Public License v3.0 or later.
 
 See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt) to see the full text.
+IBM Cloud Secrets Manager is a SaaS offering that enables IBM Cloud customers to create, rotate, update, and manage secrets from a central location. The instance is built on open-source HashiCorp Vault, which means that the Hashicorp Vault API is enabled to consume and manage the lifecycle of the secrets, these APIs can be used to develop playbooks and in this blog we provided sample code that can be used as the base to create playbooks/roles that manage the lifecycle of a secret in IBM Secret Manager, the operations implemented by this playbook are creation and lookup of a secret group, creation, and lookup of secret and finally rotation the secret.
