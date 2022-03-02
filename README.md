@@ -46,4 +46,3 @@ Enjoy the playbook execution.
 GNU General Public License v3.0 or later.
 
 See [LICENSE](https://www.gnu.org/licenses/gpl-3.0.txt) to see the full text.
-IBM Cloud Secrets Manager is a SaaS offering that enables IBM Cloud customers to create, rotate, update, and manage secrets from a central location. The instance is built on open-source HashiCorp Vault, which means that the Hashicorp Vault API is enabled to consume and manage the lifecycle of the secrets, these APIs can be used to develop playbooks and in this blog we provided sample code that can be used as the base to create playbooks/roles that manage the lifecycle of a secret in IBM Secret Manager, the operations implemented by this playbook are creation and lookup of a secret group, creation, and lookup of secret and finally rotation the secret.
